@@ -1,0 +1,6 @@
+alert('Calculo do Quociente e Resto de uma Divisão')
+let dividendo=Number(prompt('Insira o valor dividendo: '))
+let divisor=Number(prompt('Insira o valor divisor: '))
+let quociente=Math.trunc(dividendo / divisor)
+let resto=(dividendo % divisor)
+alert('O Valor da divisão e: '+(quociente)+' e o resto é '+resto)

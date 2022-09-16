@@ -1,0 +1,5 @@
+alert('Calculo do Volume de uma Lata de Óleo')
+let altura=Number(prompt('Insira a altura da lata de óleo (cm): '))
+let raio=Number(prompt('Insira do raio da lata de óleo (cm): '))
+let vol=3.1415*altura*(raio**2)
+alert("O volume é de "+vol+" ml")
